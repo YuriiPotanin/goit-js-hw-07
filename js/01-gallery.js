@@ -33,7 +33,7 @@ function handlerClick(evt) {
     const curImage = evt.target;
     const instance = basicLightbox.create(`
     <div class="modal">
-        <img src="${curImage.dataset.source}">
+        <img src="${curImage.dataset.source}" class="modal_img" width="1100" height="720">
     </div>
 `);
     instance.show();
