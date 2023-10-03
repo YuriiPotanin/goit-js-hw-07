@@ -43,9 +43,3 @@
   cursor: zoom-in;
 }
 
-.modal_img {
-  display: flex;
-  justify-content: center;
-  
-  margin-top: 20px;
-}

@@ -32,9 +32,9 @@ function handlerClick(evt) {
     
     const curImage = evt.target;
     const instance = basicLightbox.create(`
-    <div class="modal">
-        <img src="${curImage.dataset.source}" class="modal_img" width="1100" height="720">
-    </div>
+    
+        <img src="${curImage.dataset.source}" width="1100" height="720">
+    
 `);
     instance.show();
     document.addEventListener('keydown', (event) => {
