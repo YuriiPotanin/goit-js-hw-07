@@ -32,10 +32,8 @@ function handlerClick(evt) {
     
     const curImage = evt.target;
     const instance = basicLightbox.create(`
-    
-        <img src="${curImage.dataset.source}" width="1100" height="720">
-    
-`);
+        <img src="${curImage.dataset.source}">
+    `);
     instance.show();
     document.addEventListener('keydown', (event) => {
         if (event.key !== 'Escape') {
